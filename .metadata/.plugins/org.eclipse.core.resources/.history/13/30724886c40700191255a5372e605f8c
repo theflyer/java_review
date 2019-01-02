@@ -1,0 +1,23 @@
+package Assignment4;
+
+public class CrashCourseCertification extends RRTechnicalCertification {
+
+	CrashCourseCertification(String name, String course, int marks){
+		super(name,course,marks);
+	}
+	
+	@Override
+	public void generateRegistrationId(){
+		
+	}
+	@Override
+	public double calculateFee(){
+		
+		return 0.0;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
